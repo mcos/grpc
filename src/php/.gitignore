@@ -23,3 +23,9 @@ vendor/
 
 *.pb.php
 *_grpc_pb.php
+
+# ignore generated code
+tests/generated_code/GPBMetadata/*
+tests/generated_code/Math/*
+tests/interop/GPBMetadata/*
+tests/interop/Grpc/*
